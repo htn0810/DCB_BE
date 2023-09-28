@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://hc0vm00007.apac.bosch.com:3306/uaa-core-dev?autoReconnect=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: uaa-core
+    password: 5xo5DN7rLSXvzSE
+
+euaa:
+  corsOrigins:
+    - http://localhost:3000

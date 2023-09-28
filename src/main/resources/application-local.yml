@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/uaa-core-dev
+    username: root
+    password: HTNBosch0810
+
+euaa:
+  corsOrigins:
+    - http://localhost:3000
